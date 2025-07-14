@@ -1,0 +1,140 @@
+.navbar{
+    position: relative;
+    top: 0;
+    width: 100%;
+    background-color:rgb(53, 1, 194);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    transition: all 0.3s ease;
+    padding: 1rem 0;
+}
+.nav-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    font-size:1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-logo img {
+margin-top: -15px;
+width: 70px;
+height: 70px;
+border-radius: 60%;
+
+}
+.nav-menu {
+display: flex;
+list-style: none;
+gap: 2rem;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    position: relative;
+}
+.nav-link:hover {
+    color: lightblue;
+}
+
+.hero{
+min-height: 100vh;
+background:linear-gradient(135deg, rgba(30,58,138,0.85)0%, rgba(30,64,175,0.45)100%),
+url('../assets/schoolpic.jpg')center center/cover no-repeat;
+display: flex;
+align-items: center;
+justify-content: space-around;
+position: relative;
+overflow: hidden;
+
+
+}
+.hero-content {
+  
+    max-width: 600px;
+    color: #ffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+   
+}
+.hero-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.hero-subtitle{
+    font-size: 19px;
+    margin-bottom: 32px;
+}
+.hero-button{
+    display: flex;
+    gap: 16px;
+}
+.btn{
+    padding: 12px 30px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    font-size: 16px;
+}
+.btn-primary{
+    background:#60a5fa;
+    color: #ffffff;
+}
+.btn-primary:hover{
+    background: #0073ff;
+}
+.btn-secondary{
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.btn-secondary:hover{
+    background: #ffffff;
+    color: blue;
+}
+.hero-image{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    
+}
+.floating-card{
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2); 
+    border-radius: 20px;
+    padding: 32px;
+    text-align: center;
+    color:#ffffff;
+}
+.floating-card i{
+    font-size: 48px;
+    color: lightblue;
+    margin-bottom: 16px;
+}
+.floating-card h3{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
