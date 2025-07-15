@@ -1,3 +1,6 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .navbar{
     position: relative;
     top: 0;
@@ -52,7 +55,7 @@ gap: 2rem;
 
 .hero{
 min-height: 100vh;
-background:linear-gradient(135deg, rgba(30,58,138,0.85)0%, rgba(30,64,175,0.45)100%),
+background:linear-gradient(135deg, rgba(30, 59, 138, 0.466)0%, rgba(79, 103, 182, 0.301)100%),
 url('./school.jpg')center center/cover no-repeat;
 display: flex;
 align-items: center;
@@ -151,7 +154,7 @@ overflow: hidden;
 
 .floating-card i {
     font-size: 3rem;
-    color: var(--light-blue);
+    color: rgb(161, 161, 185);
     margin-bottom: 1rem;
 }
 
@@ -170,7 +173,7 @@ section {
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
-    color: var(--primary-blue);
+    color: rgb(36, 36, 46);
     margin-bottom: 3rem;
     position: relative;
 }
@@ -216,9 +219,9 @@ section {
 .stat-item {
     text-align: center;
     padding: 1.5rem;
-    background: var(--white);
+    background: rgb(205, 247, 205);
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 25px rgba(0, 0, 0, 0.801);
     transition: transform 0.3s ease;
 }
 
@@ -243,18 +246,23 @@ section {
     gap: 1rem;
 }
 
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .grid-item {
-    background: var(--white);
+    background: rgb(197, 197, 235);
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
     transition: all 0.3s ease;
+    
 }
 
 .grid-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 50px 25px rgba(0, 0, 0, 0.733);
 }
 
 .grid-item i {
@@ -276,10 +284,10 @@ section {
 }
 
 .academic-card {
-    background: var(--white);
+    background: rgb(243, 204, 204);
     padding: 2.5rem;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 30px rgba(10, 0, 0, 0.863);
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
@@ -313,7 +321,7 @@ section {
 
 .card-icon i {
     font-size: 2rem;
-    color: var(--white);
+    color: black;
 }
 
 .academic-card h3 {
@@ -413,7 +421,7 @@ section {
     color: var(--primary-blue);
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.781);
 }
 
 .slider-btn:hover {
@@ -430,22 +438,22 @@ section {
 }
 
 .event-card {
-    background: var(--white);
+    background: rgb(197, 197, 201);
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.541);
     transition: all 0.3s ease;
     display: flex;
 }
 
 .event-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.979);
 }
 
 .event-date {
     background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
-    color: var(--white);
+    color: rgb(0, 0, 0);
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -471,7 +479,7 @@ section {
 }
 
 .event-details h3 {
-    color: var(--primary-blue);
+    color: rgb(0, 0, 0);
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
 }
@@ -514,9 +522,9 @@ section {
     align-items: flex-start;
     gap: 1rem;
     padding: 1.5rem;
-    background: var(--white);
+    background: rgb(239, 245, 184);
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.863);
 }
 
 .contact-item i {
@@ -536,10 +544,10 @@ section {
 }
 
 .contact-form {
-    background: var(--white);
+    background: rgb(206, 205, 206);
     padding: 2rem;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.767);
 }
 
 .form-group {
@@ -550,7 +558,7 @@ section {
 .form-group textarea {
     width: 100%;
     padding: 1rem;
-    border: 2px solid #e2e8f0;
+    border: 2px solid #c1c1c4;
     border-radius: 10px;
     font-size: 1rem;
     transition: border-color 0.3s ease;
@@ -626,7 +634,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--white);
+    color: rgb(173, 250, 240);
     text-decoration: none;
     transition: all 0.3s ease;
 }
